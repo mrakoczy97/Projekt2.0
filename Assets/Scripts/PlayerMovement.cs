@@ -94,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
     {
         
         time += Time.deltaTime;
-        Debug.Log(moveDirection);
+        //Debug.Log(moveDirection);
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
        // rb.MovePosition((rb.position+ moveDirection * moveSpeed  * Time.fixedDeltaTime ) * movementSpeed.Evaluate(time));
     }

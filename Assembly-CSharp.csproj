@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\EyeballMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerLaser.cs" />
+    <Compile Include="Assets\Scripts\LaserScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
