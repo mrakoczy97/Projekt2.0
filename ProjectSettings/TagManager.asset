@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Occludable
+  - Kolizje
   layers:
   - Default
   - TransparentFX
@@ -12,10 +14,10 @@ TagManager:
   - Water
   - UI
   - Laser
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Occludable
+  - Kolizje
   - 
   - 
   - 

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1332072367355933170}
   - component: {fileID: 1332072367355933171}
   - component: {fileID: 3581090898431147276}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1332072367541905689}
   - component: {fileID: 1332072367541905690}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Szalik
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 3523063181654998554}
   - component: {fileID: 1332072366822537164}
   - component: {fileID: 2231230339856897919}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Srodek_oka
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,9 +320,9 @@ GameObject:
   - component: {fileID: 1332072368548078589}
   - component: {fileID: 4297362212156423231}
   - component: {fileID: 3581090897719665133}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gracz
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -334,7 +334,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3523063182414552046}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -417,7 +417,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!58 &1332072366617665180
 CircleCollider2D:
@@ -426,7 +426,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3523063182414552046}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -502,7 +502,7 @@ GameObject:
   - component: {fileID: 3581090897207459948}
   - component: {fileID: 3581090897207459922}
   - component: {fileID: 3581090897207459949}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: BeamFlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5312,7 +5312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3581090897307884631}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Laser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5348,7 +5348,7 @@ GameObject:
   - component: {fileID: 3581090897343330761}
   - component: {fileID: 3581090897343330767}
   - component: {fileID: 3581090897343330766}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10159,7 +10159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3581090897836272363}
   - component: {fileID: 3581090897836272362}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10289,7 +10289,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3581090898053926126}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: StartVFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10322,7 +10322,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3581090898127358921}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: EndVFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10357,7 +10357,7 @@ GameObject:
   - component: {fileID: 3581090898505607074}
   - component: {fileID: 3581090898505607072}
   - component: {fileID: 3581090898505607075}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: BeamFlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15169,7 +15169,7 @@ GameObject:
   - component: {fileID: 3581090898869335310}
   - component: {fileID: 3581090898869335308}
   - component: {fileID: 3581090898869335311}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}

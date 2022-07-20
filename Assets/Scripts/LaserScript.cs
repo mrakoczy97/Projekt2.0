@@ -24,7 +24,7 @@ public class LaserScript : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Debug.Log("strzelam!");
+           // Debug.Log("strzelam!");
             EnableLaser();
         }
         if (Input.GetButton("Fire1"))
@@ -33,7 +33,7 @@ public class LaserScript : MonoBehaviour
         }
         if (Input.GetButtonUp("Fire1"))
         {
-            Debug.Log("Nie strzelam!");
+           // Debug.Log("Nie strzelam!");
             DisableLaser();
         }
     }
@@ -52,15 +52,19 @@ public class LaserScript : MonoBehaviour
     }
     void UpdateLaser()
     {
+
         var mousePos = (Vector2)cam.ScreenToWorldPoint(Input.mousePosition);
+
+        
         lineRenderer.SetPosition(0, firePoint.position);
         lineRenderer.SetPosition(1, mousePos);
-
+        Debug.Log(mousePos);
         startVFX.transform.position = (Vector2)firePoint.position;
 
         //colider
+        int layer_mask = LayerMask.GetMask("Default", "Enemy");
         Vector2 direction = mousePos - (Vector2)transform.position;
-        RaycastHit2D hit = Physics2D.Raycast((Vector2)transform.position,direction.normalized,direction.magnitude);
+        RaycastHit2D hit = Physics2D.Raycast((Vector2)transform.position,direction.normalized,direction.magnitude,layer_mask);
         if(hit)
         {
             lineRenderer.SetPosition(1, hit.point);
